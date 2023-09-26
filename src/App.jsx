@@ -3,7 +3,7 @@ import { TasksSection } from "./components/TasksSection";
 
 function App() {
   return (
-    <div className="bg-#1A262D w-880px min-w-880px h-650px rounded-15px border-2 border-solid border-#39db7c63 p-35px flex gap-10px drop-shadows">
+    <div className="w-880px min-w-880px h-650px rounded-15px border-1 border-solid border-#ffffff1a p-35px flex drop-shadows frosted-container">
       <FormSection></FormSection>
       <TasksSection></TasksSection>
     </div>

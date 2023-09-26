@@ -1,3 +1,33 @@
+@font-face {
+  font-family: Rebond-Regular;
+  src: url("./fonts/Rebond-Regular.otf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Rebond-Bold;
+  src: url("./fonts/Rebond-Bold.otf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Rebond-Light;
+  src: url("./fonts/Rebond-Light.otf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Rebond-Thin;
+  src: url("./fonts/Rebond-Thin.otf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Inter-Light;
+  src: url("./fonts/Inter-ExtraLight.ttf");
+  font-display: swap;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -14,7 +44,8 @@
 }
 
 body {
-  background-color: #141e22;
+  background-color: #0a0018;
+  color: 1px solid #ffffff1a;
   /* border: 1px red solid; */
   height: 100vh;
   width: 100vw;
@@ -25,7 +56,45 @@ body {
   backdrop-filter: blur(5px);
 }
 
-.drop-shadows {
+/* .drop-shadows {
   filter: drop-shadow(0px 0px 1rem rgba(1, 68, 42, 0.815));
   box-shadow: inset 0px 0px 1rem rgba(1, 68, 42, 0.815);
+} */
+
+.text-box {
+  display: block;
+  background-color: transparent;
+  border: 1px #ffffff1a solid;
+  width: 90%;
+  border-radius: 7px;
+}
+
+.btn-blur {
+  border: 1px #ffffff1a solid;
+}
+
+.background-style {
+  background-image: url("./img/background.png");
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
+  filter: brightness(90%);
+  background-position-y: 50px;
+}
+
+.frosted-container {
+  background-color: #0a0018da;
+  backdrop-filter: blur(50px);
+}
+
+.create-btn {
+  background: radial-gradient(
+      107.5% 107.5% at 50% 215%,
+      rgba(255, 255, 255, 0.24) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    rgba(255, 255, 255, 0.04);
 }
