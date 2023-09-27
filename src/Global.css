@@ -74,20 +74,18 @@ body {
 }
 
 .background-style {
-  background-image: url("./img/background.png");
+  background-image: url("./img/background.jpg");
   width: 100%;
   height: 100%;
   position: absolute;
   z-index: -1;
   background-size: cover;
-  background-position: center;
-  filter: brightness(90%);
-  background-position-y: 50px;
+  background-repeat: no-repeat;
 }
 
 .frosted-container {
   background-color: #0a0018da;
-  backdrop-filter: blur(50px);
+  backdrop-filter: blur(25px);
 }
 
 .create-btn {
@@ -97,4 +95,8 @@ body {
       rgba(255, 255, 255, 0) 100%
     ),
     rgba(255, 255, 255, 0.04);
+}
+
+.neon {
+  text-shadow: #7060c2 1px 0 10px;
 }
