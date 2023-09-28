@@ -1,7 +1,9 @@
 export const FormSection = () => {
   return (
     <div className="h-100% min-w-335px max-w-335px flex flex-col border-r-1 border-r-solid border-r-#c7c7c711 ">
-      <p className="text-#d2d0dd font-RebondBold text-25px">To Do Hive</p>
+      <p className="text-#7060c2 font-RebondBold text-25px gradian-text">
+        To Do Hive
+      </p>
       <p className="text-#9b96b0 font-RebondThin text-18px mt-5px">
         An unnecessarily beautified To Do List
       </p>
@@ -11,14 +13,15 @@ export const FormSection = () => {
         </p>
         <input
           type="text"
-          className="text-box mb-20px h-40px text-#9b96b0 p-10px font-RebondThin rounded-30px"
+          placeholder="Title"
+          className="text-box mb-20px h-40px text-#9b96b0 p-15px font-RebondThin rounded-30px"
         />
         <p className="text-#9b96b0 font-RebondRegular p-l-10px mb-10px text-14px">
           Task Discription:
         </p>
-        <input
-          type="text"
-          className="text-box h-200px text-#9b96b0 p-10px font-RebondThin rounded-30px"
+        <textarea
+          placeholder="Discription"
+          className="text-box h-200px text-#9b96b0 font-RebondThin rounded-30px resize-none p-15px"
         />
       </form>
       <ul className="w-90% mt-20px h-fit flex justify-center items-center gap-x-1 gap-y-1.5 flex-wrap">
@@ -33,7 +36,7 @@ export const FormSection = () => {
         </li>
       </ul>
       <div className="w-100% flex justify-center p-r-35px mt-35px">
-        <div className="w-200px h-50px color-#7060c2 create-btn font-RebondRegular flex justify-center items-center rounded-40px">
+        <div className="w-200px h-50px color-#7060c2 create-btn font-RebondRegular flex justify-center items-center rounded-40px cursor-pointer">
           Create
         </div>
       </div>
