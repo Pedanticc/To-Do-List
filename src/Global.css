@@ -124,6 +124,17 @@ body {
   );
 }
 
+.task-border {
+  border: 1px rgba(0, 0, 0, 0) solid;
+  transition: 200ms;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.task-border:hover {
+  border: 1px #5b4f98 solid;
+  transform: scale(1.1);
+}
+
 ::-webkit-scrollbar {
   width: 5px;
 }
