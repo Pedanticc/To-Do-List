@@ -123,3 +123,21 @@ body {
     rgba(61, 48, 130, 1) 100%
   );
 }
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(41, 37, 58);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #5b4f98;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #5b4f98;
+}
