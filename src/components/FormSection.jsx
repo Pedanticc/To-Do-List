@@ -24,17 +24,9 @@ export const FormSection = () => {
           className="text-box h-200px text-#9b96b0 font-RebondThin rounded-30px resize-none p-15px"
         />
       </form>
-      <ul className="w-90% mt-20px h-fit flex justify-center items-center gap-x-1 gap-y-1.5 flex-wrap">
-        <li className="btn-blur w-100px h-30px font-InterThin flex justify-center items-center rounded-10px  text-#9b96b0  backdrop-blur-sm cursor-pointer create-btn">
-          Important
-        </li>
-        <li className="btn-blur w-80px h-30px font-InterThin flex justify-center items-center rounded-10px text-#9b96b0 backdrop-blur-sm cursor-pointer create-btn">
-          Hard
-        </li>
-        <li className="btn-blur w-80px h-30px font-InterThin flex justify-center items-center rounded-10px text-#9b96b0 backdrop-blur-sm cursor-pointer create-btn">
-          Regular
-        </li>
-      </ul>
+      <div className="w-100% h-fit flex justify-center items-center p-r-35px m-t-35px">
+        <div className="w-30% h-2px center-self gradian-background rounded-20px"></div>
+      </div>
       <div className="w-100% flex justify-center p-r-35px mt-35px">
         <div className="w-200px h-50px color-#7060c2 create-btn font-RebondRegular flex justify-center items-center rounded-40px cursor-pointer">
           Create
